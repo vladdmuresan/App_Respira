@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "451045704867",
+    "project_id": "app-licenta-59503",
+    "storage_bucket": "app-licenta-59503.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:451045704867:android:fbbcbbe8baac829f4deb16",
+        "android_client_info": {
+          "package_name": "eu.respira.a7_minutesworkoutapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFO59jzlh58JAK5JAVvWHhtdI5u3w_nf8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
