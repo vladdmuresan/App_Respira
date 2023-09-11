@@ -1,10 +1,10 @@
 <resources>
-    <string name="app_name">Respira</string>
+    <string name="EasyBreathing">EasyBreathing</string>
     <string name="image">image</string>
 
 
 
-// AICI INCEPEA
+// AICI INCEPE
     <string name="title_activity_login">LoginActivity</string>
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password</string>
@@ -14,7 +14,7 @@
     <string name="invalid_username">Not a valid username</string>
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
-    // pana aici
+    // pana  aici
 
     <string name="menu_log_out">Logout</string>
 
@@ -23,7 +23,7 @@
 
 
     <!--stringuri aplicatie titlu-->
-    <string name="titluAplicatie">Respira</string>
+    <string name="titluAplicatie">EasyBreathing</string>
     <!-- buton login -->
     <string name="butonLogare">Login</string>
     <!-- buton register -->

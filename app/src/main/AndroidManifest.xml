@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="eu.respira.a7_minutesworkoutapp">
+    package="eu.EasyBreathing.a7_minutesworkoutapp">
 
     <queries>
         <intent>
@@ -10,18 +10,18 @@
 <uses-permission android:name="android.permission.INTERNET"></uses-permission>
 
     <application
-        android:name=".WorkOutApp"
+        android:name="eu.EasyBreathing.a7_minutesworkoutapp.WorkOutApp"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="@string/EasyBreathing"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MaterialComponents.DayNight">
         <activity
-            android:name=".Register"
+            android:name="eu.EasyBreathing.a7_minutesworkoutapp.Register"
             android:exported="false" />
         <activity
-            android:name=".Login"
+            android:name="eu.EasyBreathing.a7_minutesworkoutapp.Login"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -30,27 +30,27 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".HistoryActivity"
+            android:name="eu.EasyBreathing.a7_minutesworkoutapp.HistoryActivity"
             android:exported="true"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
         <activity
-            android:name=".BMIActivity"
+            android:name="eu.EasyBreathing.a7_minutesworkoutapp.BMIActivity"
             android:exported="true"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
         <activity
-            android:name=".FinishActivity"
+            android:name="eu.EasyBreathing.a7_minutesworkoutapp.FinishActivity"
             android:exported="true"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
         <activity
-            android:name=".ExerciseActivity"
+            android:name="eu.EasyBreathing.a7_minutesworkoutapp.ExerciseActivity"
             android:exported="true"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.MaterialComponents.NoActionBar" />
         <activity
-            android:name=".MainActivity"
+            android:name="eu.EasyBreathing.a7_minutesworkoutapp.MainActivity"
             android:exported="false"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.MaterialComponents.Light.NoActionBar">
